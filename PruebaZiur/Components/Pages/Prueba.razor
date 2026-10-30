@@ -1,0 +1,163 @@
+﻿@page "/movimientos"
+@rendermode InteractiveServer
+@using PruebaZiur.Models
+@using PruebaZiur.Service
+@inject Serviciocs Api
+
+<PageTitle>Movimientos de inventario</PageTitle>
+
+<h1>Movimientos de inventario</h1>
+
+@if (cargando)
+{
+    <p role="status">Cargando movimientos…</p>
+}
+else if (!string.IsNullOrWhiteSpace(error))
+{
+    <p role="alert" style="color: #b42318;">@error</p>
+    <button @onclick="CargarMovimientosAsync">Reintentar</button>
+}
+else
+{
+    <label for="busqueda">Buscar:</label>
+    <input id="busqueda"
+           @bind="textoBusqueda"
+           @bind:event="oninput"
+           placeholder="Código o descripción" />
+
+    @if (Filtros.Count == 0)
+    {
+        <p>No se encontraron movimientos.</p>
+    }
+    else
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <button @onclick="() => OrdenarPor(nameof(InventarioDto.Codigo))">
+                            Código @IndicadorOrden(nameof(InventarioDto.Codigo))
+                        </button>
+                    </th>
+                    <th>
+                        <button @onclick="() => OrdenarPor(nameof(InventarioDto.Descripcion))">
+                            Descripción @IndicadorOrden(nameof(InventarioDto.Descripcion))
+                        </button>
+                    </th>
+                    <th>
+                        <button @onclick="() => OrdenarPor(nameof(InventarioDto.VActiva))">
+                            Activa @IndicadorOrden(nameof(InventarioDto.VActiva))
+                        </button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var movimiento in Filtros)
+                {
+                    <tr>
+                        <td>@movimiento.Codigo</td>
+                        <td>@movimiento.Descripcion</td>
+                        <td>@movimiento.VActiva</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@code {
+    private List<InventarioDto> movimientos = [];
+    private bool cargando = true;
+    private string? error;
+    private string textoBusqueda = "";
+    private string columnaOrden = nameof(InventarioDto.Codigo);
+    private bool ordenAscendente = true;
+
+    private List<InventarioDto> Filtros
+    {
+        get
+        {
+            IEnumerable<InventarioDto> resultado = movimientos;
+
+            if (!string.IsNullOrWhiteSpace(textoBusqueda))
+            {
+                resultado = resultado.Where(m =>
+                    m.Codigo.ToString().Contains(textoBusqueda, StringComparison.OrdinalIgnoreCase) ||
+                    m.Descripcion.Contains(textoBusqueda, StringComparison.OrdinalIgnoreCase));
+            }
+
+            resultado = (columnaOrden, ordenAscendente) switch
+            {
+                (nameof(InventarioDto.Codigo), true) =>
+                    resultado.OrderBy(m => m.Codigo),
+                (nameof(InventarioDto.Codigo), false) =>
+                    resultado.OrderByDescending(m => m.Codigo),
+                (nameof(InventarioDto.Descripcion), true) =>
+                    resultado.OrderBy(m => m.Descripcion),
+                (nameof(InventarioDto.Descripcion), false) =>
+                    resultado.OrderByDescending(m => m.Descripcion),
+                (nameof(InventarioDto.VActiva), true) =>
+                    resultado.OrderBy(m => m.VActiva),
+                _ =>
+                    resultado.OrderByDescending(m => m.VActiva)
+            };
+
+            return resultado.ToList();
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarMovimientosAsync();
+    }
+
+    private async Task CargarMovimientosAsync()
+    {
+        cargando = true;
+        error = null;
+
+        try 
+        {
+            movimientos = await Api.ObtenerMovimientosAsync();
+        }
+        catch (HttpRequestException)
+        {
+            error = "No fue posible conectar con el servicio. Verifica la URL y tu conexión.";
+        }
+        catch (System.Text.Json.JsonException)
+        {
+            error = "La respuesta recibida no tiene el formato esperado.";
+        }
+        catch (Exception)
+        {
+            error = "Ocurrió un error al cargar los movimientos.";
+        }
+        finally
+        {
+            cargando = false;
+        }
+    }
+
+    private void OrdenarPor(string columna)
+    {
+        if (columnaOrden == columna)
+        {
+            ordenAscendente = !ordenAscendente;
+        }
+        else
+        {
+            columnaOrden = columna;
+            ordenAscendente = true;
+        }
+    }
+
+    private string IndicadorOrden(string columna)
+    {
+        if (columnaOrden != columna)
+        {
+            return "";
+        }
+
+        return ordenAscendente ? "▲" : "▼";
+    }
+}

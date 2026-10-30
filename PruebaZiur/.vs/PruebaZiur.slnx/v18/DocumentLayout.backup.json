@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\components\\pages\\prueba.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:components\\pages\\prueba.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\service\\serviciocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:service\\serviciocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\models\\inventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:models\\inventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|c:\\users\\jesus david\\source\\repos\\pruebaziur\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19D0617E-A0C0-A3D1-1F67-AF319B67D6AF}|PruebaZiur.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-29T21:36:26.959Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Serviciocs.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Service\\Serviciocs.cs",
+              "RelativeDocumentMoniker": "Service\\Serviciocs.cs",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Service\\Serviciocs.cs",
+              "RelativeToolTip": "Service\\Serviciocs.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T21:37:52.84Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prueba.razor",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Pages\\Prueba.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Prueba.razor",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Pages\\Prueba.razor",
+              "RelativeToolTip": "Components\\Pages\\Prueba.razor",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-29T21:06:42.327Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T20:54:52.029Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-30T20:30:43.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Models\\InventarioDto.cs",
+              "RelativeDocumentMoniker": "Models\\InventarioDto.cs",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Models\\InventarioDto.cs",
+              "RelativeToolTip": "Models\\InventarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T21:01:32.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T19:28:44.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T19:30:22.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T19:28:31.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-29T21:13:07.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T19:28:19.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Jesus David\\source\\repos\\PruebaZiur\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T19:28:29.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
